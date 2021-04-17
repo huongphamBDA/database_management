@@ -4,7 +4,7 @@
 /*                              --SQL QUERY--                           */
 /************************************************************************/
 
-
+--- add some more!
 /************************************************************************/
 /*    SELECT AND EXECUTE THIS BLOCK TO CREATE THE SILVERTOP DATABASE    */
 /************************************************************************/
@@ -208,16 +208,16 @@
     --> Are there any clients who have a blank Date Visiting by Nurse and Case Manager? (check Null cell values, no Null value means that the client is well observed and watched out) 
     
 -- 4. BUSINESS QUESTION 4
-    --> What location clients need our service, but we don’t have caregivers available? 
+    --> What location clients need our service, but we donï¿½t have caregivers available? 
     
 -- 5. BUSINESS QUESTION 5
-    --> What language does the new client speak? She lives in zip code Y. Do we have any caregivers in zip code Y? What language does that caregiver know? Does the caregiver have a car to drive to the client’s home? 
+    --> What language does the new client speak? She lives in zip code Y. Do we have any caregivers in zip code Y? What language does that caregiver know? Does the caregiver have a car to drive to the clientï¿½s home? 
     
 -- 6. BUSINESS QUESTION 6
     --> How many caregivers did coordinator Z recruit and give training? Which coordinator recruits and trains more/fewer caregivers? 
     
 -- 7. BUSINESS QUESTION 7 
-    --> What is client X’s care hour limit to be covered by his insurance? 
+    --> What is client Xï¿½s care hour limit to be covered by his insurance? 
     
 -- 8. BUSINESS QUESTION 8 
     --> How many hours did caregiver XYZ work this month for each of his clients? Equivalent to how much $$? Is the number beyond the limit accepted by their insurance? (warning if more than) 

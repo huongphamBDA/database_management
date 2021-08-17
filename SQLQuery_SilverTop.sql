@@ -1,12 +1,12 @@
 /*********************************************/
 /*  ENTERPRISE DATABASE MANAGEMENT PROJECT   */
-/*	SILVER TOP GROUP ADULT FOSTER CARE		 */
+/*	SILVER TOP GROUP ADULT FOSTER CARE       */
 /*  --SQL QUERY--                            */
 /*********************************************/
 
 
 /********************************************************************/
-/*	SELECT AND EXECUTE THIS BLOCK TO CREATE THE SILVERTOP DATABASE  */
+/*  SELECT AND EXECUTE THIS BLOCK TO CREATE THE SILVERTOP DATABASE  */
 /********************************************************************/
 
     -- Set Context to Master

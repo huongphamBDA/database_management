@@ -248,15 +248,15 @@
         (156, 199, '2016-03-20', 08, 13, 'I think my caregiver sneaked my painkiller pills away. What should I do?')            ,
         (157, 199, '2021-03-21', 09, 20, 'I want my caregiver to wash her hands longer due to Covid.')                          ,
         (158, 200, '2017-04-19', 10, 20, 'Great caregiver. Wish to have my caregiver''s help longer next month.')               ,
-        (159, 200, '2018-06-20', 11, 20, 'I don''t understand my caregiver''s Vietnamese.')           ,
-        (160, 200, '2015-07-05', 12, 20, 'Cultural difference/ language barrier. My caregiver did not get my jokes.')    ,
-        (160, 198, '2016-07-05', 12, 25, 'Thorough work. Responsible. No complaints. ')            ,
-        (160, 198, '2016-10-05', 14, 26, 'My caregiver spent too much time on his phone. He loves Tweets more than his job.')  ,
+        (159, 200, '2018-06-20', 11, 20, 'I don''t understand my caregiver''s Vietnamese.')                                     ,
+        (160, 200, '2015-07-05', 12, 20, 'Cultural difference/ language barrier. My caregiver did not get my jokes.')           ,
+        (160, 198, '2016-07-05', 12, 25, 'Thorough work. Responsible. No complaints. ')                                         ,
+        (160, 198, '2016-10-05', 14, 26, 'My caregiver spent too much time on his phone. He loves Tweets more than his job.')   ,
         (160, 200, '2016-12-05', 14, 20, 'My caregiver has improved her performance. She reminded me to take pills on time. I''m thankful for that.'),
-        (155, 198, '2021-01-02', 15, 22, 'He has good sense of humor and is fun to chat with.')          ,
-        (156, 197, '2021-01-15', 10, 25, 'He rearranged my furniture to clear out my pathway very fast and clean.')     ,
-        (157, 197, '2021-04-29', 10, 20, 'Note from client''family member: He fed my father very carefully. Thanks.')    ,
-        (159, 198, '2021-03-12', 11, 20, 'He is a bit too talkative, but finished his job in time and good quality.')    ;
+        (155, 198, '2021-01-02', 15, 22, 'He has good sense of humor and is fun to chat with.')                                 ,
+        (156, 197, '2021-01-15', 10, 25, 'He rearranged my furniture to clear out my pathway very fast and clean.')             ,
+        (157, 197, '2021-04-29', 10, 20, 'Note from client''family member: He fed my father very carefully. Thanks.')           ,
+        (159, 198, '2021-03-12', 11, 20, 'He is a bit too talkative, but finished his job in time and good quality.')           ;
 
        --select * from tblCareServices
 
@@ -355,17 +355,17 @@
        -- Insert data into the CASEREPORTS table
        INSERT INTO tblCaseReports VALUES
        (149, 165, '10:00:00', '2021-01-05', 'Things go on schedule.'),
-       (150, 165, '08:30:00', '2021-02-05', 'Client has no complaint about his caregiver''s service.'           ),
-       (151, 165, '12:15:00', '2021-03-05', 'CM reminds client to continue COVID19 precautions: keep 6 feet apart from other people.'   ),
+       (150, 165, '08:30:00', '2021-02-05', 'Client has no complaint about his caregiver''s service.'),
+       (151, 165, '12:15:00', '2021-03-05', 'CM reminds client to continue COVID19 precautions: keep 6 feet apart from other people.'),
        (152, 165, '14:00:00', '2021-04-05', 'CM reminds client to wear mask, wash hand frequently with soap and water for at least 20 secs.'),
-       (153, 165, '16:00:00', '2020-01-05', 'CM reminds client of home safety, taking medications as prescribed.'        ),
-       (154, 165, '13:00:00', '2020-01-05', 'CM will help contact client''PCP for depress refills.'           ),
-       (155, 165, '14:30:00', '2020-01-05', 'Client needs help requesting refills for antibiotics.'           ),
-       (156, 165, '10:00:00', '2020-01-05', 'Client is happy that she got vaccinated for Covid19.'            ),
-       (157, 165, '11:00:00', '2020-01-05', 'Client reported that he fell and went to emergency last week.'         ),
-       (158, 165, '11:30:00', '2019-01-05', 'Client had no fever, cough, chest pain, or difficulty of breath.'         ),
-       (159, 165, '09:00:00', '2019-01-05', 'Client had fever and very tired. CM needs to arrange for her to have nurse check on him.'   ),
-       (160, 165, '09:45:00', '2015-08-05', 'Client looked really weak. CM will arrange hospice service for him'        );
+       (153, 165, '16:00:00', '2020-01-05', 'CM reminds client of home safety, taking medications as prescribed.'),
+       (154, 165, '13:00:00', '2020-01-05', 'CM will help contact client''PCP for depress refills.'),
+       (155, 165, '14:30:00', '2020-01-05', 'Client needs help requesting refills for antibiotics.'),
+       (156, 165, '10:00:00', '2020-01-05', 'Client is happy that she got vaccinated for Covid19.'),
+       (157, 165, '11:00:00', '2020-01-05', 'Client reported that he fell and went to emergency last week.'),
+       (158, 165, '11:30:00', '2019-01-05', 'Client had no fever, cough, chest pain, or difficulty of breath.'),
+       (159, 165, '09:00:00', '2019-01-05', 'Client had fever and very tired. CM needs to arrange for her to have nurse check on him.'),
+       (160, 165, '09:45:00', '2015-08-05', 'Client looked really weak. CM will arrange hospice service for him');
 
        --select * from tblCaseReports
 
@@ -404,7 +404,7 @@
 
       -- Create the COORD_HRTASKS table
       CREATE TABLE      tblCoord_HRTasks
-      ( Coord_HRTask_ID int   IDENTITY     (5000, 1)   PRIMARY KEY         ,
+      ( Coord_HRTask_ID int   IDENTITY     (5000, 1)   PRIMARY KEY     ,
         CoordinatorID   int   NOT NULL     REFERENCES  tblCoordinators ,
         HRTaskID        int   NOT NULL     REFERENCES  tblHrTasks      ,
         UNIQUE          (CoordinatorID, HRTaskID)
@@ -768,7 +768,7 @@
   SELECT   c.CaregiverID, FirstName, LastName, HrPayRate    ,
      ROUND ((SELECT AVG (HrPayRate) FROM tblCaregivers), 2) AS AverageHrPayRate       , -- round the AverageHrPayRate to 2 decimal places
      ROUND (((HrPayRate - (SELECT AVG (HrPayRate) FROM tblCaregivers)) / (SELECT AVG (HrPayRate)
-                                                                               FROM tblCaregivers)    * 100
+                                                                          FROM tblCaregivers)    * 100
             ), 2
            ) AS PercentHigherThanAvg      , -- round the PercentHigherThanAvg to 2 decimal places
      (SELECT MIN (HrPayRate) FROM tblCaregivers) MinHrPayRate ,

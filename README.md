@@ -3,7 +3,7 @@
 
 ## Updated System Request (One-page proposal) 
 
-### Summary: 
+### Summary 
 Proposal to improve clients’ safety at home, 
 increase the number of clients, and improve the financial 
 report system to reduce costs and increase profits by developing a database to support business operations and building an algorithm for effective caregiver recruitment. 
@@ -138,7 +138,7 @@ The fundamental goal of Silver Top is to provide high-quality services to client
 -	Question 3: Are there any caregivers who take care of more than five clients in 2021? More than five would be a bit too much and the company might need to reduce the workload for those caregivers to make sure they do not compromise on the quality of their care service.
 
 **To recruit caregivers effectively and increase the number of clients** 
--	Question 4: We have a new client named Marianne Costa. Find out her ClientID and zip code. Do we have any caregivers in this client's zip code? And does the caregiver have a car to drive to the client’s home? This would help the coordinator to decide whether she needs to recruit a new caregiver for this new client, and how to coordinate the work schedule for caregivers to come and provide care for this client.
+-	Question 4: We have a new client named Cameron Diaz. Find out her ClientID and zip code. Do we have any caregivers in this client's zip code? And does the caregiver have a car to drive to the client’s home? This would help the coordinator to decide whether she needs to recruit a new caregiver for this new client, and how to coordinate the work schedule for caregivers to come and provide care for this client.
 -	Question 5: What languages can clients speak but the caregivers can't? The company needs to hire new caregivers who know these languages. 
 -	Question 6: How many caregivers did each coordinator recruit, provide training, evaluate, or collect their timesheets? Who are the top three coordinators who deal with the most caregivers? 
 

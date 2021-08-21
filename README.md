@@ -147,3 +147,5 @@ The fundamental goal of Silver Top is to provide high-quality services to client
 -	Question 8: How much does each caregiver earn per hour and compare their rates with the average pay rate, minimum rate, and maximum rate? What percentage caregivers earn more than the average pay rate? (using two decimal places)
 -	Question 9: Are there any cases the rates we pay for caregivers are higher than the rates we bill the insurance companies for their corresponding? Warning if that happens.
 -	Question 10: What is the average sum of hourly pay rate for caregivers and for nurses for each Date of Service in the most recent year, if a client meets with a caregiver as frequently as they meet nurses? Smooth it out by calculating 7 rows and 30 rows rolling average of this combined hourly pay rate.
+
+Click [here] (https://github.com/huongphamBDA/database_management/blob/main/SQLQuery_SilverTop.sql) to see SQL code.
